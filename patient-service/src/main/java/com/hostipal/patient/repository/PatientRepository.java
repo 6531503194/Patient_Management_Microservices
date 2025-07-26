@@ -11,4 +11,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, UUID> {
 
+    boolean existsByEmail(String email);
 }
