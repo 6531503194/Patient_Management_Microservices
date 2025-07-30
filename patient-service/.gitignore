@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+#Environment variables
+.env
+
+# Database volume
+db_volumes/
+
+# Docker artifacts
+*.cnf
+*.pid
+*.sock
